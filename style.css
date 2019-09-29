@@ -1,0 +1,268 @@
+html{
+	scroll-behavior: smooth;
+}
+
+	.header {
+		background: #F7F7F7;
+		position: fixed;
+		display: block;
+		width: 60%;
+		padding: 0px;
+		top: 0px;
+	}
+
+	body {
+		text-align: center;
+		background: #252628;
+		/*background-image: url("papyrus-dark.png");*/
+
+		font-family: 'Quicksand', sans-serif;
+		margin-left: 20%;
+		margin-right: 20%;
+		color: #09090A;
+
+	}
+
+	.title {
+		padding: 5px;
+		color: #09090A;
+
+		font-family: 'Quicksand', sans-serif;
+	}
+
+	.title p {
+		font-size: 60px;
+		color: black;
+		/*color: #0496FF;*/
+	}
+
+	h2 {
+
+		font-size: 100px;
+		color: #09090A;
+
+	}
+
+	/*Navigation Bar */
+	.nav {
+
+		background: #F7F7F7;
+		border-top: solid;
+		border-bottom: solid;
+		border-color: gray;
+		border-width: 1px;
+		padding: 2%;
+	}
+
+	/* Style the links inside the navigation bar */
+	.nav a {
+	 padding: 10px 12px;
+	  text-decoration: none;
+	  font-size: 25px;
+	  color: #252628;
+      border-radius: 5px;
+      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	}
+
+	/* Change the color of links on hover */
+	/*.nav a:hover {
+	  background-color: #ddd;
+	  color: black;
+	}*/
+
+	input[type=text]{
+
+		text-align: center;
+		width: 40%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		font-size: 25px;
+		box-sizing: border-box;
+		color: #252628;
+	}
+
+	input[type=submit] {
+		color: #252628;
+        border-radius: 50px;
+        width: 15%;
+        padding: 10px 12px;
+        margin-left: 10px;
+	  	font-size: 25px;
+	  	font-family: 'Quicksand', sans-serif;
+	}
+
+	button {
+		padding: 10px 12px;
+	  text-decoration: none;
+	  font-size: 25px;
+	  color: #252628;
+      border-radius: 5px;
+      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	}
+
+	.gwhite {
+		border-color: rgb(28, 184, 65);
+		background: #F4F7F5;
+	}
+
+	.rwhite {
+		border-color: rgb(202, 60, 60);
+		background: #F7F7F7;
+	}
+
+	.green {
+		background: #F7F7F7; /* this is a green */
+		border-color: rgb(28, 184, 65);
+	}
+
+	.red {
+        background: #F7F7F7; /* this is a maroon */
+        border-color: rgb(202, 60, 60);
+	}
+	
+	.orange {
+		background: #F7F7F7; /* this is an orange */
+		border: 2px solid #FAA916;
+	}
+
+	.orange:hover {
+		background: #FAA916;
+		border: 2px solid #F7F7F7;
+		color: #F7F7F7;
+	}
+
+	.blue {
+		background: #F7F7F7; /* this is a light blue */
+		border: 2px solid rgb(66, 184, 221);
+	}
+
+	.yelorange {
+		background: #F7F7F7;
+		border: 2px solid #FFBC42;
+	}
+
+	.azure {
+		background: #F7F7F7;
+		border: 2px solid #0496FF;
+	}
+
+	.azure a:hover{
+		background: #0496FF;
+		border: 2px solid #F7F7F7;
+	}
+
+	 .azure:hover {
+	  background: #0496FF;
+		border: 2px solid #F7F7F7;
+	}
+
+	.iceberg {
+		background: #F7F7F7;
+		border-color:  #74B3CE;
+	}
+	  
+
+	.main {
+		background:#F7F7F7;
+		min-height: 200vh;
+		padding-top: 300px;
+		color: #09090A;
+	}
+
+	.graphy {
+		padding-top: 250px;
+	}
+
+	/*Page 2*/
+
+	article {
+		padding-top: 300px;
+	}
+
+	.report td, th {
+    
+    text-align: left;
+    padding: 8px;
+    }
+
+    .content {
+    display: flex;
+    width: 100%
+    flex-direction: row;
+    background-color: none;
+  }
+   .content > article {
+    flex: 4;
+    min-height: 60vh;
+  }
+
+  .collapsible {
+    background-color: #F7F7F7 ;
+    color: #444;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    border-color: none;
+    border: 0px;
+   }
+
+   .active, .collapsible:hover {
+    background-color: #74B3CE;
+    color: #F7F7F7;
+    }
+    
+    .collapsible:after {
+        content: '\002B';
+        color: black;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+    } 
+
+   table {
+   	width: 100%;
+   	text-align: left; 
+   	margin-left: 0;
+    margin-right: auto ;
+    background-color: none;
+   }
+
+/* Page 4*/
+
+
+.progress {
+	padding-top: 300px;
+	padding-bottom: 300px;
+
+	
+
+}
+.innerbar {
+  width: 0%;
+  height: 30px;
+  background-color: #FFBC42;
+  border-radius: 25px;
+}
+
+.outerbar {
+  width: 75%;
+  background-color: #ddd;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: 2%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+h3{
+    margin-left: 2%;
+    vertical-align: middle;
+    display: inline-flex;
+}
+
+#goals-table {
+	width: auto;
+}

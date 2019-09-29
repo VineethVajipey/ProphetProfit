@@ -1,0 +1,50 @@
+<!doctype html>
+
+<title>Graph</title>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+
+<body>
+	<div class="white-background">
+	<div class="title">
+
+		<h1>Belvita and Xans</h1>
+
+	</div>
+
+	<div class="nav">
+		<a href="#home">Money</a>
+		<a href="#news">Stocks</a>
+		<a href="#contact">Graph</a>
+		<a href="#about">Goals</a>
+	</div>
+
+	<div class="main">
+	<div id="line"></div>
+
+	<script>
+		var snp = {
+		  x: [1, 2, 3, 4],
+		  y: [2, 4, 6, 8],
+		  type: 'scatter'
+		};
+
+		var client = {
+		  x: [1, 2, 3, 4],
+		  y: [3, 6, 9, 12],
+		  type: 'scatter'
+		};
+
+		var data = [snp, client];
+
+		Plotly.newPlot("line", data);
+	</script>
+	</div>
+</div>
+</body>
+
+	
+
